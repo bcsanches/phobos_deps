@@ -1,0 +1,3 @@
+[submodule "JsonCreator"]
+	path = JsonCreator
+	url = https://github.com/bcsanches/JsonCreator.git
