@@ -1,3 +1,6 @@
 [submodule "JsonCreator"]
 	path = JsonCreator
 	url = https://github.com/bcsanches/JsonCreator.git
+[submodule "libRocket"]
+	path = libRocket
+	url = https://github.com/bcsanches/libRocket.git
