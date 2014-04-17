@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Demos">
+      <UniqueIdentifier>{E5AC9D02-9C68-C043-9192-6492FC4161D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demos\SliderConstraintDemo">
+      <UniqueIdentifier>{2D66691B-02FF-E749-874C-3404E6DF758B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Demos\SliderConstraintDemo\SliderConstraintDemo.h">
+      <Filter>Demos\SliderConstraintDemo</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Demos\SliderConstraintDemo\main.cpp">
+      <Filter>Demos\SliderConstraintDemo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Demos\SliderConstraintDemo\SliderConstraintDemo.cpp">
+      <Filter>Demos\SliderConstraintDemo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\bullet.rc" />
+  </ItemGroup>
+</Project>

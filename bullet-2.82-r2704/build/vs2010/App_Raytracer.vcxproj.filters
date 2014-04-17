@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Demos">
+      <UniqueIdentifier>{F8D0500D-523D-5549-88E5-DE4FC6BE1355}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demos\Raytracer">
+      <UniqueIdentifier>{5FA4920A-1FF7-7548-BB7D-ADCD77AE87E0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Demos\Raytracer\Raytracer.h">
+      <Filter>Demos\Raytracer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Demos\Raytracer\main.cpp">
+      <Filter>Demos\Raytracer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Demos\Raytracer\Raytracer.cpp">
+      <Filter>Demos\Raytracer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\bullet.rc" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Demos">
+      <UniqueIdentifier>{99EE66D6-08C6-B540-AD84-C0CF5572E918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Demos\Benchmarks">
+      <UniqueIdentifier>{BA8E3A8F-0F37-4945-B6D5-DE17175813A0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Demos\Benchmarks\BenchmarkDemo.h">
+      <Filter>Demos\Benchmarks</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Demos\Benchmarks\BenchmarkDemo.cpp">
+      <Filter>Demos\Benchmarks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Demos\Benchmarks\main.cpp">
+      <Filter>Demos\Benchmarks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Demos\Benchmarks\Win32BenchmarkDemo.cpp">
+      <Filter>Demos\Benchmarks</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
